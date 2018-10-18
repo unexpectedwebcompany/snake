@@ -1,12 +1,10 @@
 import React from 'react';
 import './puntuation.css';
 
-const puntuation = (props) => {
-  return(
-    <article>
-      Puntuación 
-    </article>
-  )
-}
+const puntuation = () => (
+  <article>
+    <p> Puntuación </p>
+  </article>
+);
 
 export default puntuation;
